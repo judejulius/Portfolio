@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jude Julius</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     <!-- navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,32 +23,32 @@
           </button>
           <div class="collapse navbar-collapse text-white" id="navbarNavAltMarkup">
             <div class="navbar-nav" style="padding-left: 250px; gap: 30px;">
-              <a class="nav-link" style="color: #ffb727" aria-current="page" href="#">Home</a>
-              <a class="nav-link " style="color: #fcfcfc" href="#">About</a>
-              <a class="nav-link " style="color: #fcfcfc" href="#">Skills</a>
-              <a class="nav-link " style="color: #fcfcfc" href="#">Work & Education</a>
-              <a class="nav-link " style="color: #fcfcfc" href="#">Project</a>
-              <a class="nav-link " style="color: #fcfcfc" href="#">Testimonial</a>
-              <a class="nav-link " style="color: #fcfcfc" href="#">Contact</a>
+              <a class="nav-link" style="color: #fcfcfc" aria-current="page" href="#hero">Home</a>
+              <a class="nav-link" style="color: #fcfcfc" aria-current="page" href="#about-me">About</a>
+              <a class="nav-link" style="color: #fcfcfc" aria-current="page" href="#workneducation">Work & Education</a>
+              <a class="nav-link" style="color: #fcfcfc" aria-current="page" href="#project">Project</a>
+              <a class="nav-link" style="color: #fcfcfc" aria-current="page" href="#testimonial">Testimonial</a>
+              <a class="nav-link" style="color: #fcfcfc" aria-current="page" href="#contact">Contact</a>
             </div>
           </div>
         </div>
       </nav>
+      <div id="hero">
       <div class="px-4 py-5 my-5 text-center">
         <h1 class="display-5 fw-bold" style="font-size: 8em;">JUDE JULIUS</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4 text-white" style="font-size: 4em;">Aspiring Developer</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
               <a href="#about-me"><i class=" btn bi bi-arrow-down-circle-fill" style="font-size: 3em;"></i></a>
-
+            </div>
           </div>
         </div>
       </div>
       <!-- About Me -->
-      <section id="about-me" class="about-">
-          <div class="info">
+      <section id="about-me" class="container-fluid">
+          <div class="info ">
           <h1 class="pb-2 border-bottom" style="text-align: center;font-size: 4em;color: #3b434a;">About Me</h1>
-          <div class="container px-4 py-5" id="featured-3">
+          <div class="container px-4 py-5 ps-lg-4 d-flex-column justify-content-center" id="featured-3">
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
               <div class="feature col-sm-12 col-lg-5">
                <img src="/images/jude.jpg" alt="" width="80%">
@@ -58,13 +61,12 @@
                     <li><i class="bi bi-arrow-right-short text-warning" style="font-size: 2em;" ></i><strong>Email : </strong><span>www.judejulius@gmail.com</span></li>
                   </ul>
               </div>
-              <div class="feature col-sm-12 col-lg-3">
+              <div class="feature col-sm-12 col-lg-3 pt-5">
                   <ul class="list-unstyled">
                 <li><i class="bi bi-arrow-right-short text-warning" style="font-size: 2em;" ></i><strong>Age : </strong><span>23</span></li>
                     <li><i class="bi bi-arrow-right-short text-warning" style="font-size: 2em;" ></i><strong>Phone : </strong><span>+27 81 380 8892</span></li>
                     <li><i class="bi bi-arrow-right-short text-warning" style="font-size: 2em;" ></i><strong>Freelance : </strong><span>Available</span></li>
                     </ul>
-                    
               </div>
                   <div class="col-sm-12 col-md-6 col-lg-7">
                     <h3>Html</h3>
@@ -87,10 +89,76 @@
               
             </div>
         </div>
-         
         </div>
       </section>
+      <!-- work and education section -->
+      <section id="workneducation" class="workneducation border-top">
+        <h1 class="pb-2 border-bottom" style="text-align: center;font-size: 4em;color: #3b434a;">Work & Education</h1>
+      </section>
+      <section id="project">
+        <h1 class="pb-2 border-bottom" style="text-align: center;font-size: 4em;color: #3b434a;">Project card</h1>
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+    <div class="card" style="width: 18rem;">
+        <img src="/images/animation.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Animation</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Languages Used</li>
+          <li class="list-group-item">HTML</li>
+          <li class="list-group-item">CSS</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://github.com/judejulius/Animation" class="card-link" style="font-size: 2em;" ><i class="bi bi-github"></i></a>
+          <a href="https://keen-murdock-be4795.netlify.app/" class="card-link"><i class="bi bi-file-person-fill" style="font-size: 2em; float: right;"></i></a>
+        </div>
+      </div>
+      </div>
+      <!-- card 2 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img src="/images/cards.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Flip cards</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Languages Used</li>
+          <li class="list-group-item">HTML</li>
+          <li class="list-group-item">CSS</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://github.com/judejulius/Flip-cards" class="card-link" style="font-size: 2em;" ><i class="bi bi-github"></i></a>
+          <a href="https://gifted-turing-739975.netlify.app/" class="card-link"><i class="bi bi-file-person-fill" style="font-size: 2em; float: right;"></i></a>
+        </div>
+      </div>
+      </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img src="/images/cards2.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cards</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Languages Used</li>
+          <li class="list-group-item">HTML</li>
+          <li class="list-group-item">CSS</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://github.com/judejulius/Cards" class="card-link"  style="font-size: 2em;" ><i class="bi bi-github"></i></a>
+          <a href="https://tender-snyder-7b4644.netlify.app/" class="card-link"><i class="bi bi-file-person-fill" style="font-size: 2em; float: right;"></i></a>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+      </section>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
 </body>
 </html>
