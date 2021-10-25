@@ -1,0 +1,16 @@
+body{
+    background-image: url(/images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.btn:hover{
+    color:#ebab2d;
+}
+.nav-link{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.about-me{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+}
