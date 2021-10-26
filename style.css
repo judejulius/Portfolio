@@ -1,31 +1,45 @@
 
+*{
+    overflow-x: hidden;
+}
 body{
+    height:80%;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-size:cover;
     background-image: url(/images/background.jpg);
     background-attachment: fixed;
     background-size: cover;
     
 }
+.section-headers{
+    padding-top: 100px;
+}
 .btn:hover{
     color:#ebab2d;
 }
 nav{
-   
-  background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-  background-size:cover;
-  
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-size:cover;
+    
+}
+strong:hover{
+    color: #ebab2d;
 }
 
 .active{
     color: #ebab2d !important;
 }
+@font-face {
+    font-family: headerfont;
+    src: url(/CHICKEN\ Pie.ttf);
+}
+.header1{
+    font-family: headerfont;
+    overflow: hidden;
+}
 .nav-link{
     
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-}
-#hero{
-    animation: heartbeat; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
 }
 /* about me page */
 #about-me{
@@ -36,6 +50,10 @@ nav{
 }
 .info{
     z-index: 1;
+}
+.percent{
+    display: fixed;
+    right: 0;
 }
 /* work and education */
 #workneducation{
@@ -51,4 +69,39 @@ nav{
     background-color: aliceblue;
     z-index: 0;
 
+}
+/* testimonial */
+#testimonial{
+    width: 100vw;
+    height: 50%;
+    background-color: aliceblue;
+    z-index: 0;
+}
+#myCarousel{
+    height: 100px;
+    background-image: url(/images/dawid-zawila-bpJ8qeyo1-w-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.carousel-img{
+    width: 150px;
+border-radius: 100%;
+border: 6px solid rgba(255, 255, 255, 0.15);
+margin: 0 auto;
+
+}
+#contact{
+    width: 100vw;
+    height: 50%;
+    background-color: aliceblue;
+    z-index: 0;
+}
+.text-dark:hover{
+    color: #ebab2d;
+}
+/* footer */
+#footer{
+    background-image: url(/images/dawid-zawila-bpJ8qeyo1-w-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
