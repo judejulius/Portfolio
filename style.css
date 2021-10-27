@@ -3,7 +3,6 @@
     overflow-x: hidden;
 }
 body{
-    height:80%;
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-size:cover;
     background-image: url(/images/background.jpg);
@@ -12,7 +11,7 @@ body{
     
 }
 .section-headers{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .btn:hover{
     color:#ebab2d;
@@ -20,7 +19,11 @@ body{
 nav{
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-size:cover;
+    text-align: center;
     
+}
+.nav-item{
+    text-align: center;
 }
 strong:hover{
     color: #ebab2d;
@@ -61,7 +64,6 @@ strong:hover{
     height: auto;
     background-color: aliceblue;
     z-index: 0;
-
 }
 /* project */
 #project{

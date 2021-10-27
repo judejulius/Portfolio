@@ -15,29 +15,41 @@
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     <!-- navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse text-white" id="navbarNavAltMarkup">
-            <div class="navbar-nav" style="padding-left: 250px; gap: 30px;">
-              <a class="nav-link" style="color: #fcfcfc" aria-current="page" href="#hero">Home</a>
-              <a class="nav-link" style="color: #fcfcfc" aria-current="page" href="#about-me">About</a>
-              <a class="nav-link" style="color: #fcfcfc" aria-current="page" href="#workneducation">Work & Education</a>
-              <a class="nav-link" style="color: #fcfcfc" aria-current="page" href="#project">Project</a>
-              <a class="nav-link" style="color: #fcfcfc" aria-current="page" href="#testimonial">Testimonial</a>
-              <a class="nav-link" style="color: #fcfcfc" aria-current="page" href="#contact">Contact</a>
-            </div>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Tenth navbar example">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="#workneducation">Work & Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="#testimonial">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="#contact">Contact Me</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
       <a href="#hero"><i class="bi bi-file-arrow-up-fill text-warning" style="font-size: 4em;"></i></a>
       <!-- hero -->
       <div id="hero">
       <div class="px-4 py-5 my-5 text-center">
-        <h1 class="header1 display-5 fw-bold animate__animated animate__heartBeat" style="font-size: 12.3em;">JUDE JULIUS</h1>
+        <h1 class="header1 display-5 fw-bold animate__animated animate__heartBeat" style="font-size: 10em;">JUDE JULIUS</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4 text-white" style="font-size: 4em;">Aspiring Developer</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -62,14 +74,18 @@
                     <li><i class="bi bi-arrow-right-short text-warning" style="font-size: 2em;" ></i><strong>Birth Date : </strong><span>23/12/1998</span></li>
                     <li><i class="bi bi-arrow-right-short text-warning" style="font-size: 2em;" ></i><strong>Email : </strong><span>www.judejulius@gmail.com</span></li>
                   </ul>
-                  <h5>Html</h5>
+                  <h3>Html</h3>
                     <div class="progress">
                         <div class="progress-bar w-50 bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
-                      <h5>CSS</h5>
-                      <div class="progress">
-                          <div class="progress-bar w-75 bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+                      <h3>CSS</h3>
+                    <div class="progress">
+                        <div class="progress-bar w-75 bg-warning placeholder-glow" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <h3>C++</h3>
+                    <div class="progress">
+                        <div class="progress-bar w-75 bg-warning" role="progressbar" style="width: 25%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
               </div>
               <div class="feature col-sm-12 col-lg-3 pt-5">
                   <ul class="list-unstyled">
@@ -77,10 +93,6 @@
                     <li><i class="bi bi-arrow-right-short text-warning" style="font-size: 2em;" ></i><strong>Phone : </strong><span>+27 81 380 8892</span></li>
                     <li><i class="bi bi-arrow-right-short text-warning" style="font-size: 2em;" ></i><strong>Freelance : </strong><span>Available</span></li>
                     </ul>
-                    <h5>C++</h5>
-                    <div class="progress">
-                        <div class="progress-bar w-75 bg-warning" role="progressbar" style="width: 25%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
               </div>
             </div>
         </div>
@@ -89,6 +101,7 @@
       <!-- work and education section -->
       <section id="workneducation" class="workneducation border-top">
         <h1 class="section-headers pb-2 border-bottom" style="text-align: center;font-size: 4em;color: #3b434a;">Work & Education</h1>
+     
         </section>
         <!-- project -->
       <section id="project">
