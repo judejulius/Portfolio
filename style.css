@@ -29,14 +29,14 @@ strong:hover{
 .active{
     color: #ebab2d !important;
 }
-@font-face {
+/* @font-face {
     font-family: headerfont;
     src: url(/CHICKEN\ Pie.ttf);
 }
 .header1{
     font-family: headerfont;
     overflow: hidden;
-}
+} */
 .nav-link{
     
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -51,10 +51,10 @@ strong:hover{
 .info{
     z-index: 1;
 }
-.percent{
+/* .percent{
     display: fixed;
     right: 0;
-}
+} */
 /* work and education */
 #workneducation{
     width: 100vw;
@@ -63,12 +63,19 @@ strong:hover{
     z-index: 0;
 
 }
+/* project */
 #project{
     width: 100vw;
     height: auto;
     background-color: aliceblue;
     z-index: 0;
 
+}
+.bi-file-arrow-up-fill{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
 }
 /* testimonial */
 #testimonial{
@@ -90,11 +97,15 @@ border: 6px solid rgba(255, 255, 255, 0.15);
 margin: 0 auto;
 
 }
+/* contact */
 #contact{
     width: 100vw;
     height: 50%;
     background-color: aliceblue;
     z-index: 0;
+}
+.h-100{
+    overflow: hidden;
 }
 .text-dark:hover{
     color: #ebab2d;
