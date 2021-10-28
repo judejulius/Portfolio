@@ -10,6 +10,9 @@ body{
     background-size: cover;
     
 }
+#hero{
+    height: 100vh;
+}
 .section-headers{
     padding-top: 80px;
     opacity: 0;
@@ -204,12 +207,23 @@ strong:hover{
 /* testimonial */
 #testimonial{
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     background-color: aliceblue;
     z-index: 0;
 }
+.card {
+    border: none
+}
+
+.user-content p {
+    margin-top: 5px;
+    font-size: 12px
+}
 .images{
     height: 100px;
+}
+.fa-star{
+    color: #ebab2d;
 }
 /* #myCarousel{
     background-image: url(/images/dawid-zawila-bpJ8qeyo1-w-unsplash.jpg);
@@ -221,9 +235,12 @@ strong:hover{
     display: block;
     width: 200px;
     height: 200px;
-border-radius: 100%;
 border: 6px solid rgba(255, 255, 255, 0.15);
 margin: 0 auto;
+}
+.carousel-control-prev-icon{
+ background-image: url();
+ height: 3rem !important;
 }
 /* contact */
 #contact{
