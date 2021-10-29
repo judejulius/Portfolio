@@ -12,6 +12,11 @@ body{
 #hero{
     height: 100vh;
 }
+@media screen and (max-width: 600px) {
+    .header1{
+      font-size:8em!important;
+    }
+  }
 .section-headers{
     padding-top: 45px;
     opacity: 0;
