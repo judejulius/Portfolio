@@ -3,18 +3,17 @@
     overflow-x: hidden;
 }
 body{
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    background-size:cover;
-    background-image: url(/images/background.jpg);
+    min-height:100%;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/background.jpg);
+  background-size:cover;
     background-attachment: fixed;
-    background-size: cover;
     
 }
 #hero{
     height: 100vh;
 }
 .section-headers{
-    padding-top: 80px;
+    padding-top: 45px;
     opacity: 0;
   transition: opacity .5s .25s ease-out;
 }
@@ -33,6 +32,9 @@ nav{
 }
 .nav-item{
     text-align: center;
+}
+.nav-link:hover{
+    color: #ebab2d !important;
 }
 strong:hover{
     color: #ebab2d;
@@ -207,7 +209,6 @@ strong:hover{
 /* testimonial */
 #testimonial{
     width: 100vw;
-    height: 100vh;
     background-color: aliceblue;
     z-index: 0;
 }
@@ -218,6 +219,10 @@ strong:hover{
 .user-content p {
     margin-top: 5px;
     font-size: 12px
+}
+
+.ratings i {
+    color: blue
 }
 .images{
     height: 100px;
@@ -230,18 +235,6 @@ strong:hover{
     background-size: cover;
     background-attachment: fixed;
 } */
-.carousel-img{
-    image-rendering: auto;
-    display: block;
-    width: 200px;
-    height: 200px;
-border: 6px solid rgba(255, 255, 255, 0.15);
-margin: 0 auto;
-}
-.carousel-control-prev-icon{
- background-image: url();
- height: 3rem !important;
-}
 /* contact */
 #contact{
     width: 100vw;
@@ -268,7 +261,7 @@ margin: 0 auto;
 /* footer */
 
 #footer{
-    background-image: url(/images/dawid-zawila-bpJ8qeyo1-w-unsplash.jpg);
+    background-color: #3b434a;
     background-size: cover;
     background-attachment: fixed;
 }
