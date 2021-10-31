@@ -67,7 +67,7 @@ strong:hover{
     max-width: 600px;
     width: 90%;
     will-change: transform, opacity;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 .about-img.is-visible{
     opacity: 1;
