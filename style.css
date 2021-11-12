@@ -53,9 +53,12 @@ strong:hover{
     color: #ebab2d !important;
 }
 .nav-link{
-    
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
+@media screen and (max-width: 600px) {
+  .navbar-nav{
+  }
+  }
 /* about me page */
 #about-me{
     width: 100vw;
@@ -72,8 +75,9 @@ strong:hover{
     width: 90%;
     will-change: transform, opacity;
     overflow-y: hidden;
-    border-radius: 50%;
+    border-radius: 100%;
 }
+
 .about-img.is-visible{
     opacity: 1;
   transform: rotateZ(0deg)
